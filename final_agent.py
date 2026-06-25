@@ -2,8 +2,7 @@ import json
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-ws-H.RYIHYXL.EEV9.MEUCIQCua9xM1UrwBGbYIpOzNT6aXYEoT0zMabqr9BBM8PJiEgIgVZECnFplU88Ddbkry8M2FviGz6IiSENJ0KIItS10dwY",
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
+    api_key="your-api-key-here"
 )
 
 def get_current_weather(location: str, unit: str = "摄氏度"):
